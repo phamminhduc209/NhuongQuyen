@@ -26,6 +26,16 @@
 						    height: 39px;
 						    border: 3px solid #f8a638;
 						}
+						.search-iconbox {
+						    top: 7px;
+						    padding: 3px 5px 2px 5px;
+						    right: 10px;
+						    line-height: 1;
+						    .search-icon {
+							    width: 15px;
+							    height: 17px;
+							}
+						}
                     }
                 }
             }

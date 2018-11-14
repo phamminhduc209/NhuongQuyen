@@ -8,6 +8,19 @@
         	top: 0px;
     		right: 293px;
         }
+        #block-ifa-custom-social-icons-block-top {
+			padding: 6px 2px 2px 13px;
+			margin-top: 7px;
+			right: 40px;
+			top: -7px;
+			.social_icon {
+			    margin: 0 0 2px 0;
+			    a {
+				    font-size: 29px;
+					margin: 0 8px;
+				}
+			}
+		}
     }
     .header-nav {
   		font: normal 14px/20px RobotoBold;

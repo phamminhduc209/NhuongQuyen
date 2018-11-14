@@ -34,8 +34,32 @@
                             margin-bottom: 0;
                             border: 2px solid #f8a638;
                         }
+                        .search-iconbox {
+                            top: 5px;
+                            padding: 1px 1px 1px 1px;
+                            right: 5px;
+                            line-height: 10px;
+                            .search-icon {
+                                width: 10px;
+                                height: 10px;
+                            }
+
+                        }
                     }
                 }
+            }
+        }
+        #block-ifa-custom-social-icons-block-top {
+            float: left;
+            margin-top: 10px;
+            top: 72px;
+            right: 22px;
+            padding: 1px 2px 0px 8px;
+            bottom: auto;
+            margin-right: 0px;
+            display: block;
+            .social_icon {
+                margin: 0 0 1px 0;
             }
         }
 	}

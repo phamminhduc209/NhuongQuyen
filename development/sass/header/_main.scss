@@ -53,8 +53,54 @@
 				    background-color: #ececec;
 				    font-size: 14px;
 				}
+				.search-iconbox {
+				    position: absolute;
+				    z-index: 1;
+				    right: 10px;
+				    background-color: #454545;
+				    padding: 3px 5px 2px 5px;
+				    top: 5px;
+				    line-height: 1;
+				    .search-icon {
+					    width: 12px;
+					    height: 12px;
+					    background: url(../images/search-icon.jpg) no-repeat left top;
+					    background-size: 100% 100%;
+					    display: inline-block;
+					}
+				}
 			}
         }
+	}
+	#block-ifa-custom-social-icons-block-top {
+	    background-color: #003b6e;
+	    padding: 4px 2px 1px 8px;
+	    position: absolute;
+	    width: auto;
+	    z-index: 99;
+	    right: 8.94118%;
+	    bottom: -208px;
+	    margin-right: 5px;
+	    display: none;
+	    .social_icon {
+	    	a {
+			    color: #ffffff;
+			    margin: 0 8px;
+			    font-size: 27px;
+			    &:first-child {
+				    margin-left: 0;
+				}
+			}
+			.glyphicon-envelope {
+			    background: url(../images/envelope.png) no-repeat center center;
+			    display: inline-block;
+			    width: 32px;
+			    height: 21px;
+			    &:before {
+			    	display: none;
+			    }
+			}
+	    }
 	}
 }
 .header-nav {
