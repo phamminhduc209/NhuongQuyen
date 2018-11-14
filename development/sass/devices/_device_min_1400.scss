@@ -1,0 +1,25 @@
+/* Min Width 1400px */
+@media screen and (min-width: $device_min_1400) {
+    #header {
+        .header-logo-wrp {
+            margin: 40px 18.61702127659574% 19px 13.29787234042553%;
+        }
+        .header-form {
+        	top: 0px;
+    		right: 293px;
+        }
+    }
+    .header-nav {
+  		font: normal 14px/20px RobotoBold;
+  		.navbar-collapse {
+  			.navbar-nav {
+  				> li {
+  					> a {
+						padding: 7px 10px 7px 27px;
+						line-height: 20px;
+  					}
+  				}
+  			}
+  		}
+	}
+}

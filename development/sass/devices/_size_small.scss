@@ -1,0 +1,61 @@
+/* Min Width 768px */
+@media screen and (min-width: $device_size_small) {
+	.topsection-well {
+        position: relative;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+	}
+	#header {
+        width: 13.42857143%;
+        display: table-cell;
+        vertical-align: top;
+        position: static;
+        .header-logo-wrp {
+            margin: 24px 18.61702127659574% 10px 13.29787234042553%;
+        }
+        .header-form {
+            right: 22px;
+            top: 50px;
+            bottom: auto;
+            width: 100%;
+            position: absolute;
+            #search-block-form {
+                .form-group {
+                    position: relative;
+                    .head-searchbox-wrp {
+                        float: right;
+                        width: 20%;
+                        .searchbox {
+                            font-size: 10px;
+                            padding-right: 25px;
+                            height: 23px;
+                            line-height: 1;
+                            margin-bottom: 0;
+                            border: 2px solid #f8a638;
+                        }
+                    }
+                }
+            }
+        }
+	}
+    .header-nav {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        left: 0;
+        right: auto;
+        font: normal 11px/14px RobotoBold;
+        margin-top: auto;
+        .container-fluid {
+            margin-left: 13.42857143%;
+            background-color: #00335f;
+            .navbar-collapse {
+                .first-level-menu {
+                    position: static;
+                }
+            }
+        }
+    }
+}
