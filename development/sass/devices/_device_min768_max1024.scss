@@ -1,0 +1,118 @@
+/* Min Width 768px and Max Width 1024px */
+@media screen and (min-width: $device_size_small ) and (max-width: $device_min_1024) {
+    #header {
+        .header-logo-wrp {
+            margin: 27px 0.0794117647058824% 18px 11.17647058823529%;
+        }
+    }
+    #head-banner {
+        .carousel-inner {
+            .item {
+                .head-banner-content-wrp {
+                    padding: 21px 3.465346534653465% 22px 3.465346534653465%;
+                    .head-banner-content {
+                        font-size: 11px;
+                        p {
+                            min-height: 47px;
+                            line-height: 17px;
+                        }
+                        .head-banner-btn {
+                            font-size: 12px;
+                            line-height: 15px;
+                            padding: 5px 5px 5px 10px;                            
+                            margin-top: 10px;
+                            .arrow-icon {
+                                margin-left: 12px;
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .head-banner-carousel-indicators {
+        top: 28.49872773536896%;
+        padding: 34px 7px 35px 7px;
+        width: 22px;
+        li {
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            &.active {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+    .homepage-search {
+        .search-opportunities-wrapper {
+            .search-opportunities-well {
+                padding: 30px 0 20px;
+                .search-opportunities-in {
+                    margin-left: 3.465346534653465%;
+                    width: 95.5578%;
+                    .search-heading-section {
+                        h2 {
+                            font-size: 25px;
+                            margin-right: 10px;
+                        }
+                        .sub-heading {
+                            font-size: 11px;
+                            margin-left: 9px;
+                        }
+                    }
+                    .search-item-wrp {
+                        .search-form-item {
+                            .search-item-label {
+                                font-size: 18px;
+                                line-height: 21px;
+                            }
+                            .search-item-right-section {
+                                .search-select-group {
+                                    .search-item-selectbox-wrp {
+                                        margin-right: 20px;
+                                        margin-bottom: 5px;
+                                        .search-item-selectbox {
+                                            width: 145px;
+                                        }
+                                    }
+                                    .general-searchbox-wrp {
+                                        .general-search-iconbox {
+                                            top: 5px;
+                                            padding: 1px 1px 1px 1px;
+                                            right: 5px;
+                                            line-height: 10px;
+                                            .search-icon {
+                                                width: 10px;
+                                                height: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .search-select-group1 {
+                            #edit-international-yes {
+                                margin-right: 5%;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search-item-selectbox-wrp {
+        .search-item-selectbox {
+            width: 108px;
+            .select-value {
+                line-height: 21px;
+            }
+            .search-ops-selectbox {
+                height: 23px;
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 * {
-	font-family: $font-text;
+	padding: 0px;
+	margin: 0px;
 }
 
 a {
@@ -28,4 +29,15 @@ body {
 	line-height: 1.42857143;
 	color: #333333;
 	background-color: #454545;
+}
+.clearfix {
+	clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
 }

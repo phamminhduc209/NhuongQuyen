@@ -13,6 +13,11 @@
         position: static;
         .header-logo-wrp {
             margin: 24px 18.61702127659574% 10px 13.29787234042553%;
+            .logo {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
         }
         .header-form {
             right: 22px;
@@ -70,7 +75,7 @@
         z-index: 2;
         left: 0;
         right: auto;
-        font: normal 11px/14px RobotoBold;
+        font: normal 11px/14px;
         margin-top: auto;
         .container-fluid {
             margin-left: 13.42857143%;
@@ -78,6 +83,93 @@
             .navbar-collapse {
                 .first-level-menu {
                     position: static;
+                }
+            }
+        }
+    }
+    .header-aside {
+        display: table-cell;
+        vertical-align: top;
+        width: 86.5714%;
+    }
+    #head-banner {
+        .carousel-inner {
+            .item {
+                figure {
+                    height: 100%;
+                }
+                .head-banner-content-wrp {
+                    position: absolute;
+                    z-index: 1;
+                    background: url(../images/head-banner-bg.png) repeat left top;
+                    top: 28.49872773536896%;
+                    width: 48.1023102310231%;
+                    left: 3.465346534653465%;
+                    .head-banner-content {
+                        h2 {
+                            font-size: 32px;
+                            line-height: 36px;
+                            margin-bottom: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .homepage-search {
+        .search-opportunities-wrapper {
+            .search-opportunities-well {
+                .search-opportunities-in {
+                    .search-heading-section {
+                        h2 {
+                            .divider {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    .search-item-wrp {
+                        .search-form-item {
+                            margin-bottom: 3px;
+                            .search-item-label {
+                                float: left;
+                                margin-right: 5px;
+                                margin-bottom: 10px;
+                                width: 135px;
+                            }
+                            .search-item-right-section {
+                                width: 85.1063829787234%;
+                                float: left;
+                                padding-left: 0;
+                            }
+                        }
+                        .search-select-group1 {
+                            float: left;
+                            clear: none;
+                            width: 225px;
+                            .search-item-label {
+                                display: inline;
+                                width: 60px;
+                                margin-right: 5px;
+                                color: #153f3f;
+                                float: left;
+                                font: bold 10px/21px $font-open-sans;
+                            }
+                            #edit-international-yes {
+                                float: left;
+                                margin-right: 10px;
+                                margin-top: 0px;
+                                width: auto;
+                                margin-left: 30px;
+                            }
+                        }
+                        .search-select-group {
+                            float: left;
+                        }
+                        .search-fran-button {
+                            float: left;
+                            margin-left: 20px;
+                        }
+                    }
                 }
             }
         }
