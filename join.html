@@ -25,9 +25,10 @@
         <section class="topsection-well">
             <header class="header" id="header">
                 <figure class="header-logo-wrp">
-                    <a href="/" title="Home">
-                    <img src="images/logo.png" alt="Home" class="logo">
-                    </a>
+                    <!-- <a href="/" title="Home">
+                        <img src="images/logo.png" alt="Home" class="logo">
+                    </a> -->
+                    <a href="/" title="Home" style="display: block; color: #fff; font-size: 25px; margin: 0 auto;">Nhuong<br>Quyen<small>.NET</small></a>
                 </figure>
                 <div class="region region-sidebar-first">
                     <section id="block-menu-menu-ifa-main-menu" class="block block-menu clearfix">
@@ -199,72 +200,55 @@
                         </div>
                         <!-- join-content -->
                         <div class="homepage-search">
-                            <form action="/search-results" method="get">
-                                <div id="start-search">
-                                    <div class="search-opportunities-wrapper">
-                                        <section class="search-opportunities-well clearfix">
-                                            <div class="search-opportunities-in">
-                                                <div class="search-heading-section" id="search_franchisor">
-                                                    <h2>
-                                                        <span>Tìm kiếm cơ hội nhượng quyền thương mại</span>
-                                                        <span class="divider">|</span>
-                                                    </h2>
-                                                    <h3 class="sub-heading">Tìm kiếm, chọn, so sánh và liên hệ</h3>
-                                                </div>
-                                                <div class="search-heading-section" id="search_international" style="display:none">
-                                                    <h2>
-                                                        <span>Tìm kiếm cơ hội quốc tế</span>
-                                                        <span class="divider">|</span>
-                                                    </h2>
-                                                    <h3 class="sub-heading">Tìm kiếm, chọn, so sánh và liên hệ</h3>
-                                                </div>
-                                                <div class="search-opportunites-left">
-                                                    <div class="search-item-wrp">
-                                                        <div class="search-form-item">
-                                                            <div class="clearfix">
+                            <div class="search-opportunities-wrapper">
+                                <div class="search-opportunities-left">
+                                    <form action="/search-results" method="get" class="block-form-ajust">
+                                        <div id="start-search">
+                                            <section class="search-opportunities-well clearfix">
+                                                <div class="search-opportunities-in">
+                                                    <div class="search-heading-section" id="search_franchisor">
+                                                        <h2><span>Tìm kiếm Nhượng Quyền Thương Mại</span></h2>
+                                                        <br>
+                                                        <h3 class="sub-heading">Tìm kiếm, chọn, so sánh và liên hệ</h3>
+                                                    </div>
+                                                    <div class="search-opportunites-left">
+                                                        <div class="search-item-wrp form-ajust-content">
+                                                            <div class="search-form-item">
                                                                 <label class="search-item-label">Theo danh mục:</label>
-                                                                <div class="search-item-right-section">
-                                                                    <div class="search-select-group">
-                                                                        <div class="form-item form-group">
-                                                                            <div class="search-item-selectbox-wrp clearfix">
-                                                                                <div class="search-item-selectbox">
-                                                                                    <span id="category-industry" class="select-value">Công nghiệp</span>
-                                                                                    <select class="search-ops-selectbox form-control form-select" id="edit-field-franchisor-category-tid" name="field_franchisor_category_tid">
-                                                                                        <option value="All" selected="selected">- Tất Cả -</option>
-                                                                                        <option value="oto">Ôtô</option>
-                                                                                        <option value="giaoduc">Giáo Dục</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <button class="search-item-select-btn" type="button"></button>
+                                                                <div class="search-item-right-section row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="search-item-selectbox-wrp">
+                                                                            <div class="search-item-selectbox">
+                                                                                <span id="category-industry" class="select-value">Công nghiệp</span>
+                                                                                <select class="search-ops-selectbox form-control form-select" id="edit-field-franchisor-category-tid" name="field_franchisor_category_tid">
+                                                                                    <option value="All" selected="selected">- Tất Cả -</option>
+                                                                                    <option value="oto">Ôtô</option>
+                                                                                    <option value="giaoduc">Giáo Dục</option>
+                                                                                </select>
                                                                             </div>
+                                                                            <button class="search-item-select-btn" type="button"></button>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="search-select-group">
-                                                                        <div class="views-exposed-widget clearfix">
-                                                                            <div class="form-item form-group">
-                                                                                <div class="search-item-selectbox-wrp clearfix">
-                                                                                    <div class="search-item-selectbox">
-                                                                                        <span id="investment-industry" class="select-value">Mức đầu tư</span>
-                                                                                        <select class="search-ops-selectbox form-control form-select" id="edit-search-within" name="search_within">
-                                                                                            <option value="All" selected="selected">- Tất Cả -</option>
-                                                                                            <option value="0-25000">0 - $25,000</option>
-                                                                                            <option value="25000-50000">$25000-$50000</option>
-                                                                                            <option value="50000-100000">$50000-$100,000</option>
-                                                                                            <option value="100000-250000">$100,000 - $250,000</option>
-                                                                                            <option value="250000-500000">$250,000-$500,000</option>
-                                                                                            <option value="5000000-">$500,000+</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                    <button class="search-item-select-btn" type="button"></button>
-                                                                                </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="search-item-selectbox-wrp">
+                                                                            <div class="search-item-selectbox">
+                                                                                <span id="investment-industry" class="select-value">Mức đầu tư</span>
+                                                                                <select class="search-ops-selectbox form-control form-select" id="edit-search-within" name="search_within">
+                                                                                    <option value="All" selected="selected">- Tất Cả -</option>
+                                                                                    <option value="0-25000">0 - $25,000</option>
+                                                                                    <option value="25000-50000">$25000-$50000</option>
+                                                                                    <option value="50000-100000">$50000-$100,000</option>
+                                                                                    <option value="100000-250000">$100,000 - $250,000</option>
+                                                                                    <option value="250000-500000">$250,000-$500,000</option>
+                                                                                    <option value="5000000-">$500,000+</option>
+                                                                                </select>
                                                                             </div>
+                                                                            <button class="search-item-select-btn" type="button"></button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="search-form-item">
-                                                            <div class="clearfix">
+                                                            <div class="search-form-item">
                                                                 <label class="search-item-label">Theo từ khóa:</label>
                                                                 <div class="search-item-right-section">
                                                                     <div class="general-searchbox-wrp search-item-searchbox-wrp">
@@ -277,86 +261,64 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="search-select-group1">
-                                                            <div class="views-exposed-widget">
-                                                                <span class="search-item-label">Cơ hội quốc tế:</span>
-                                                                <div id="edit-international-yes" class="form-radios">
-                                                                    <div class="form-item-international-yes form-type-radio radio">
-                                                                        <label class="control-label" for="edit-international-yes-yes">
-                                                                            <input type="checkbox" id="edit-international-yes-yes" name="international_yes" value="Yes">
-                                                                            Có
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="form-item-international-yes form-type-radio radio">
-                                                                        <label class="control-label" for="edit-international-yes-no">
-                                                                            <input type="checkbox" id="edit-international-yes-no" name="international_yes" value="No" checked="checked">
-                                                                            Không
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="search-select-group">
-                                                            <div class="form-item form-group" style="display: none;">
-                                                                <div class="radio-select">
-                                                                    <div class="search-item-selectbox-wrp">
-                                                                        <div class="search-item-selectbox">
-                                                                            <span id="region" class="select-value">Khu Vực</span>
-                                                                            <select class="search-ops-selectbox form-control form-select" id="edit-field-fs-region-tid" name="field_fs_region_tid">
-                                                                                <option value="All" selected="selected">- Tất Cả -</option>
-                                                                                <option value="6701">Africa</option>
-                                                                                <option value="6706">Asia</option>
-                                                                                <option value="6711">Australia</option>
-                                                                                <option value="6716">Caribbean</option>
-                                                                                <option value="6721">EasternEurope</option>
-                                                                                <option value="6726">MiddleEast</option>
-                                                                                <option value="6731">NorthAmerica</option>
-                                                                                <option value="6736">SouthAmerica</option>
-                                                                                <option value="6741">WesternEurope</option>
-                                                                            </select>
+                                                            <div class="search-form-item">
+                                                                <label class="search-item-label">Cơ hội quốc tế:</label>
+                                                                <div class="search-item-right-section row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="search-item-selectbox-wrp clearfix">
+                                                                            <div class="search-item-selectbox">
+                                                                                <span id="category-industry" class="select-value">Công nghiệp</span>
+                                                                                <select class="search-ops-selectbox form-control form-select" id="edit-field-franchisor-category-tid" name="field_franchisor_category_tid">
+                                                                                    <option value="All" selected="selected">- Tất Cả -</option>
+                                                                                    <option value="oto">Ôtô</option>
+                                                                                    <option value="giaoduc">Giáo Dục</option>
+                                                                                </select>
+                                                                            </div>
+                                                                            <button class="search-item-select-btn" type="button"></button>
                                                                         </div>
-                                                                        <button class="search-item-select-btn" type="button"></button>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="search-select-group">
-                                                            <div class="form-item form-item-field-fs-domestic-tid form-type-select form-group clearfix">
-                                                                <div class="radio-select">
-                                                                    <div class="search-item-selectbox-wrp">
-                                                                        <div class="search-item-selectbox">
-                                                                            <span id="domestic" class="select-value">Trong nước</span>
-                                                                            <select class="search-ops-selectbox form-control form-select" id="edit-field-fs-domestic-tid" name="field_fs_domestic_tid">
-                                                                                <option value="All" selected="selected">- Tất Cả -</option>
-                                                                                <option value="hochiminh">Hồ Chí Minh</option>
-                                                                                <option value="hanoi">Hà Nội</option>
-                                                                                <option value="khanhhoa">Khánh Hòa</option>
-                                                                                <option value="vungtau">Vũng Tàu</option>
-                                                                                <option value="dalat">Đà Lạt</option>
-                                                                            </select>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="search-item-selectbox-wrp">
+                                                                            <div class="search-item-selectbox">
+                                                                                <span id="domestic" class="select-value">Trong nước</span>
+                                                                                <select class="search-ops-selectbox form-control form-select" id="edit-field-fs-domestic-tid" name="field_fs_domestic_tid">
+                                                                                    <option value="All" selected="selected">- Tất Cả -</option>
+                                                                                    <option value="hochiminh">Hồ Chí Minh</option>
+                                                                                    <option value="hanoi">Hà Nội</option>
+                                                                                    <option value="khanhhoa">Khánh Hòa</option>
+                                                                                    <option value="vungtau">Vũng Tàu</option>
+                                                                                    <option value="dalat">Đà Lạt</option>
+                                                                                </select>
+                                                                            </div>
+                                                                            <button class="search-item-select-btn" type="button"></button>
                                                                         </div>
-                                                                        <button class="search-item-select-btn" type="button"></button>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="search-form-item search-fran-button">
-                                                            <div class="clearfix">
-                                                                <div class="search-item-right-section">
-                                                                    <button class="search-item-submit-btn" type="submit">
-                                                                        GỬI<span class="white-right-arrow"></span>
-                                                                    </button>
+                                                            <div class="search-form-item">
+                                                                <label class="search-item-label"></label>
+                                                                <div class="search-item-right-section row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="search-fran-button">
+                                                                            <div class="search-item-right-section">
+                                                                                <button class="search-item-submit-btn" type="submit">
+                                                                                    GỬI<span class="white-right-arrow"></span>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </section>
-                                    </div>
+                                            </section>
+                                        </div>
+                                    </form>
                                 </div>
-                            </form>
+                                <!-- search-opportunities-left -->
+                            </div>
+                            <!-- pane-homepage-slideshow -->
                         </div>
                         <!-- homepage-search -->
                     </div>
@@ -389,7 +351,7 @@
             						            <h3 class="blog-cont-head">blog</h3>
             						            <div class="cont-switch-date">
             						                <div class="date-wrp">
-            						                    <a href="what-you-won-t-learn-from-your-franchisor">
+            						                    <a href="#">
             						                        <div class="date">	
             						                            <span class="date-format">14</span>
             						                            <span class="month">Nov</span>
@@ -398,7 +360,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">									  
-            						                    <a href="what-you-won-t-learn-from-your-franchisor">What You Won’t Learn From Your Franchisor &#187;</a>
+            						                    <a href="#" title="Những gì bạn sẽ không học được từ người nhượng quyền của bạn">Những gì bạn sẽ không học được từ người nhượng quyền của bạn &#187;</a>
             						                </p>
             						                <!--content end here-->	
             						            </div>
@@ -412,7 +374,7 @@
             						            <h3 class="blog-cont-head">blog</h3>
             						            <div class="cont-switch-date">
             						                <div class="date-wrp">
-            						                    <a href="crepe-delicious">
+            						                    <a href="#">
             						                        <div class="date">	
             						                            <span class="date-format">09</span>
             						                            <span class="month">Nov</span>
@@ -421,7 +383,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">									  
-            						                    <a href="crepe-delicious">Crepe Delicious &#187;</a>
+            						                    <a href="#" title="Nhượng Quyền Sản Phẩm">Nhượng Quyền Sản Phẩm &#187;</a>
             						                </p>
             						                <!--content end here-->	
             						            </div>
@@ -435,7 +397,7 @@
             						            <h3 class="blog-cont-head">blog</h3>
             						            <div class="cont-switch-date">
             						                <div class="date-wrp">
-            						                    <a href="franchise-owners-share-experience-advice">
+            						                    <a href="#">
             						                        <div class="date">	
             						                            <span class="date-format">30</span>
             						                            <span class="month">Oct</span>
@@ -444,7 +406,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">									  
-            						                    <a href="franchise-owners-share-experience-advice">Franchise Owners Share Experience, Advice. &#187;</a>
+            						                    <a href="#" title="Chủ sở hữu nhượng quyền chia sẻ kinh nghiệm, tư vấn.">Chủ sở hữu nhượng quyền chia sẻ kinh nghiệm, tư vấn. &#187;</a>
             						                </p>
             						                <!--content end here-->	
             						            </div>
@@ -467,7 +429,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">									  
-            						                    <a href="successful-franchise-real-estate">Successful Franchise Real Estate &#187;</a>
+            						                    <a href="#" title="Bất động sản nhượng quyền thành công">Bất động sản nhượng quyền thành công &#187;</a>
             						                </p>
             						                <!--content end here-->	
             						            </div>
@@ -481,7 +443,7 @@
             						            <h3 class="blog-cont-head">blog</h3>
             						            <div class="cont-switch-date">
             						                <div class="date-wrp">
-            						                    <a href="franchise-opportunities-for-veterans-how-military-service-translates-into-franchise-ownership">
+            						                    <a href="#">
             						                        <div class="date">	
             						                            <span class="date-format">02</span>
             						                            <span class="month">Oct</span>
@@ -490,7 +452,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">									  
-            						                    <a href="franchise-opportunities-for-veterans-how-military-service-translates-into-franchise-ownership">Franchise Opportunities for Veterans:  How Military Service Translates into Franchise Ownership &#187;</a>
+            						                    <a href="#" title="Cơ hội nhượng quyền thương mại cho cựu chiến binh: Cách dịch vụ quân sự chuyển thành sở hữu quyền sở hữu thương mại">Cơ hội nhượng quyền thương mại cho cựu chiến binh: Cách dịch vụ quân sự chuyển thành sở hữu quyền sở hữu thương mại &#187;</a>
             						                </p>
             						                <!--content end here-->	
             						            </div>
@@ -523,7 +485,7 @@
             						            <h3 class="blog-cont-head">TIN TỨC NỔI BẬT</h3>
             						            <div class="cont-switch-date">
             						                <div class="date-wrp">
-            						                    <a href="#">
+            						                    <a href="#" title="">
             						                        <div class="date">
             						                            <span class="date-format">20</span>
             						                            <span class="month">Mar</span>
@@ -531,8 +493,8 @@
             						                    </a>
             						                </div>
             						                <!--date month end here-->
-            						                <p class="cont">
-            						                    <a href="#">IFA to Appeal in Federal Circuit Court to Stop Seattle's Discrimination Against Franchises »</a>
+            						                <p class="cont" title="">
+            						                    <a href="#">IFA khiếu nại tại Tòa án Liên bang để Ngăn chặn sự phân biệt đối xử của Seattle đối với các nhượng quyền thương mại »</a>
             						                </p>
             						                <!--content end here-->
             						            </div>
@@ -555,7 +517,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">
-            						                    <a href="ifa-statement-on-the-2018-midterm-elections">IFA STATEMENT ON THE 2018 MIDTERM ELECTIONS »</a>
+            						                    <a href="#" title="Báo cáo của IFA về các cuộc bầu cử MIDTERM năm 2018">Báo cáo của IFA về các cuộc bầu cử MIDTERM năm 2018 »</a>
             						                </p>
             						                <!--content end here-->
             						            </div>
@@ -578,7 +540,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">
-            						                    <a href="#"> American Franchises Win as FASB Provides Educational Examples of Revenue Recognition Implementation »</a>
+            						                    <a href="#" title="American Franchises giành chiến thắng khi FASB cung cấp các ví dụ giáo dục về việc thực hiện công nhận doanh thu">American Franchises giành chiến thắng khi FASB cung cấp các ví dụ giáo dục về việc thực hiện công nhận doanh thu »</a>
             						                </p>
             						                <!--content end here-->
             						            </div>
@@ -601,7 +563,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">
-            						                    <a href="#">&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;IFA PRAISES DEPT. OF LABOR JOINT EMPLOYER ANNOUNCEMENT »</a>
+            						                    <a href="#" title="IFA PRAISES DEPT. THÔNG BÁO NGƯỜI LAO ĐỘNG CỦA NGƯỜI LAO ĐỘNG">IFA PRAISES DEPT. THÔNG BÁO NGƯỜI LAO ĐỘNG CỦA NGƯỜI LAO ĐỘNG »</a>
             						                </p>
             						                <!--content end here-->
             						            </div>
@@ -624,7 +586,7 @@
             						                </div>
             						                <!--date month end here-->
             						                <p class="cont">
-            						                    <a href="#">IFA PRAISES MEMBERS OF CONGRESS FOR URGING THE DEPARTMENT OF LABOR TO CLARIFY JOINT EMPLOYER STANDARD »</a>
+            						                    <a href="#" title="IFA PRAISES CÁC THÀNH VIÊN HỘI ĐỒNG ĐỂ XÁC NHẬN SỞ LAO ĐỘNG ĐỂ KIỂM SOÁT TIÊU CHUẨN NHÂN VIÊN">IFA PRAISES CÁC THÀNH VIÊN HỘI ĐỒNG ĐỂ XÁC NHẬN SỞ LAO ĐỘNG ĐỂ KIỂM SOÁT TIÊU CHUẨN NHÂN VIÊN »</a>
             						                </p>
             						                <!--content end here-->
             						            </div>
@@ -650,9 +612,9 @@
             					</figure>
             					<div class="tweet-content-recent">
             			            <div class="field-content">
-            			                <p class="tweet-content">From boot camp to business owners, veterans make great franchisees. Find out what makes them uniquely qualified to...</p>
+            			                <p class="tweet-content">Từ chương trình đào tạo đến chủ doanh nghiệp, cựu chiến binh làm cho những người được nhượng quyền tuyệt vời. Tìm hiểu điều gì làm cho chúng đủ điều kiện để ...</p>
             			                <div class="tweet-status">
-            			                	<span class="upper-text">recent tweet</span>
+            			                	<span class="upper-text">Tweet gần đây</span>
             			                </div>
             			            </div>
             					</div>
@@ -672,16 +634,15 @@
             					    	<div class="newsletter-container-item">
             							    <a href="#">
             							        <h3>Join IFA</h3>
-            							        <p class="content">Join the only organization that is committed to protecting the franchising industry in the U.S. and around the world
-            							            &nbsp;</p>
+            							        <p class="content">Tham gia tổ chức duy nhất cam kết bảo vệ ngành công nghiệp nhượng quyền thương mại ở Hoa Kỳ và trên toàn thế giới</p>
             							    </a>
             							    <nav>
             							        <ul>
-            							            <li><a href="https://www.franchise.org/join-ifa-franchisee">Franchisees</a></li>
-            							            | 
-            							            <li><a href="https://www.franchise.org/join-ifa-franchisor">Franchisors</a></li>
-            							            | 
-            							            <li><a href="https://www.franchise.org/join-ifa-suppliers">Suppliers</a></li>
+            							            <li><a href="#">Nhượng quyền thương mại</a></li>
+            							            <li class="brick">|</li>
+            							            <li><a href="#">Người nhượng quyền</a></li>
+            							            <li class="brick">|</li>
+            							            <li><a href="#">Các nhà cung cấp</a></li>
             							        </ul>
             							    </nav>
             							</div>
@@ -690,16 +651,15 @@
             					    	<div class="newsletter-container-item">
             							    <a href="#">
             							        <h3>Education</h3>
-            							        <p class="content">Business format franchising is transforming the global marketplace…creating thousands of opportunities for business owners and jobs… and...
-            							            &nbsp;</p>
+            							        <p class="content">Việc kinh doanh theo định dạng kinh doanh đang biến đổi thị trường toàn cầu… tạo ra hàng nghìn cơ hội cho chủ doanh nghiệp và công việc… và…</p>
             							    </a>
             							    <nav>
             							        <ul>
-            							            <li><a href="https://www.franchise.org/join-ifa-franchisee">Franchisees</a></li>
-            							            | 
-            							            <li><a href="https://www.franchise.org/join-ifa-franchisor">Franchisors</a></li>
-            							            | 
-            							            <li><a href="https://www.franchise.org/join-ifa-suppliers">Suppliers</a></li>
+            							            <li><a href="#">Nhượng quyền thương mại</a></li>
+            							            <li class="brick">|</li>
+            							            <li><a href="#">Người nhượng quyền</a></li>
+            							            <li class="brick">|</li>
+            							            <li><a href="#">Các nhà cung cấp</a></li>
             							        </ul>
             							    </nav>
             							</div>
@@ -708,16 +668,15 @@
             					    	<div class="newsletter-container-item">
             							    <a href="#">
             							        <h3>Join IFA</h3>
-            							        <p class="content">Join the only organization that is committed to protecting the franchising industry in the U.S. and around the world
-            							            &nbsp;</p>
+            							        <p class="content">Tham gia tổ chức duy nhất cam kết bảo vệ ngành công nghiệp nhượng quyền thương mại ở Hoa Kỳ và trên toàn thế giới</p>
             							    </a>
             							    <nav>
             							        <ul>
-            							            <li><a href="https://www.franchise.org/join-ifa-franchisee">Franchisees</a></li>
-            							            | 
-            							            <li><a href="https://www.franchise.org/join-ifa-franchisor">Franchisors</a></li>
-            							            | 
-            							            <li><a href="https://www.franchise.org/join-ifa-suppliers">Suppliers</a></li>
+            							            <li><a href="#">Nhượng quyền thương mại</a></li>
+            							            <li class="brick">|</li>
+            							            <li><a href="#">Người nhượng quyền</a></li>
+            							            <li class="brick">|</li>
+            							            <li><a href="#">Các nhà cung cấp</a></li>
             							        </ul>
             							    </nav>
             							</div>
@@ -775,9 +734,9 @@
             						            <!--date month end here-->
             						            <div class="franchisor-emerging-top">
             						                <div class="left-section">
-            						                    <h3><a href="ifa-annual-convention" class="link">IFA Annual Convention</a></h3>
+            						                    <h3><a href="ifa-annual-convention" class="link">Công ước hàng năm của IFA</a></h3>
             						                    <p class="content">
-            						                        More than 4,000 franchise professionals will gather to connect, innovate, evolve&nbsp;and chart the 	
+            						                        Hơn 4.000 chuyên gia nhượng quyền sẽ tập hợp để kết nối, đổi mới, phát triển&nbsp;và vẽ biểu đồ	
             						                    </p>
             						                </div>
             						                <div class="right-section hidden-xs">
@@ -791,7 +750,7 @@
             						            <!--right top section end here-->
             						            <div class="franchisor-emerging-bottom">
             						                <div class="left-section">
-            						                    <a class="register-btn" href="#">Register</a>
+            						                    <a class="register-btn" href="#">Đăng Ký</a>
             						                </div>
             						            </div>
             						            <!--right bottom section end here-->
@@ -814,9 +773,9 @@
             						            <!--date month end here-->
             						            <div class="franchisor-emerging-top">
             						                <div class="left-section">
-            						                    <h3><a href="ifa-annual-convention" class="link">IFA Annual Convention</a></h3>
+            						                    <h3><a href="ifa-annual-convention" class="link">Công ước hàng năm của IFA</a></h3>
             						                    <p class="content">
-            						                        More than 4,000 franchise professionals will gather to connect, innovate, evolve&nbsp;and chart the 	
+            						                        Hơn 4.000 chuyên gia nhượng quyền sẽ tập hợp để kết nối, đổi mới, phát triển&nbsp;và vẽ biểu đồ	
             						                    </p>
             						                </div>
             						                <div class="right-section hidden-xs">
@@ -830,7 +789,7 @@
             						            <!--right top section end here-->
             						            <div class="franchisor-emerging-bottom">
             						                <div class="left-section">
-            						                    <a class="register-btn" href="#">Register</a>
+            						                    <a class="register-btn" href="#">Đăng Ký</a>
             						                </div>
             						            </div>
             						            <!--right bottom section end here-->
@@ -853,9 +812,9 @@
             						            <!--date month end here-->
             						            <div class="franchisor-emerging-top">
             						                <div class="left-section">
-            						                    <h3><a href="ifa-annual-convention" class="link">IFA Annual Convention</a></h3>
+            						                    <h3><a href="ifa-annual-convention" class="link">Công ước hàng năm của IFA</a></h3>
             						                    <p class="content">
-            						                        More than 4,000 franchise professionals will gather to connect, innovate, evolve&nbsp;and chart the 	
+            						                        Hơn 4.000 chuyên gia nhượng quyền sẽ tập hợp để kết nối, đổi mới, phát triển&nbsp;và vẽ biểu đồ	
             						                    </p>
             						                </div>
             						                <div class="right-section hidden-xs">
@@ -869,7 +828,7 @@
             						            <!--right top section end here-->
             						            <div class="franchisor-emerging-bottom">
             						                <div class="left-section">
-            						                    <a class="register-btn" href="#">Register</a>
+            						                    <a class="register-btn" href="#">Đăng Ký</a>
             						                </div>
             						            </div>
             						            <!--right bottom section end here-->
