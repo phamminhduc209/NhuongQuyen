@@ -9,8 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" >
-    <link href="css/style.css" rel="stylesheet" >
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- OwlCarousel -->
+    <link href="libs/OwlCarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- style -->
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -247,7 +251,7 @@
                                             <section class="search-opportunities-well clearfix">
                                                 <div class="search-opportunities-in">
                                                     <div class="search-heading-section" id="search_franchisor">
-                                                        <h2><span>Tìm kiếm Nhượng Quyền Thương Mại</span></h2>
+                                                        <h2>Tìm kiếm Nhượng Quyền Thương Mại</h2>
                                                         <br>
                                                         <h3 class="sub-heading">Tìm kiếm, chọn, so sánh và liên hệ</h3>
                                                     </div>
@@ -257,7 +261,7 @@
                                                                 <label class="search-item-label">Theo danh mục:</label>
                                                                 <div class="search-item-right-section row">
                                                                     <div class="col-sm-6">
-                                                                        <div class="search-item-selectbox-wrp">
+                                                                        <div class="search-item-selectbox-wrp clearfix">
                                                                             <div class="search-item-selectbox">
                                                                                 <span id="category-industry" class="select-value">Công nghiệp</span>
                                                                                 <select class="search-ops-selectbox form-control form-select" id="edit-field-franchisor-category-tid" name="field_franchisor_category_tid">
@@ -270,7 +274,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-6">
-                                                                        <div class="search-item-selectbox-wrp">
+                                                                        <div class="search-item-selectbox-wrp clearfix">
                                                                             <div class="search-item-selectbox">
                                                                                 <span id="investment-industry" class="select-value">Mức đầu tư</span>
                                                                                 <select class="search-ops-selectbox form-control form-select" id="edit-search-within" name="search_within">
@@ -318,7 +322,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-sm-6">
-                                                                        <div class="search-item-selectbox-wrp">
+                                                                        <div class="search-item-selectbox-wrp clearfix">
                                                                             <div class="search-item-selectbox">
                                                                                 <span id="domestic" class="select-value">Trong nước</span>
                                                                                 <select class="search-ops-selectbox form-control form-select" id="edit-field-fs-domestic-tid" name="field_fs_domestic_tid">
@@ -351,12 +355,23 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!-- search-opportunites-left -->
                                                 </div>
                                             </section>
                                         </div>
                                     </form>
                                 </div>
                                 <!-- search-opportunities-left -->
+                                <div class="search-opportunities-right">
+                                    <div class="block-random">
+                                        <div class="block-blog-random text-center">
+                                            <a href="#" title="">
+                                                <img src="images/random/9189390987183670436.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- search-opportunities-right -->
                             </div>
                             <!-- pane-homepage-slideshow -->
                         </div>
@@ -417,32 +432,40 @@
             	            		<div class="franchise-container-right">
             	            			<div class="block-popular-link">
             	            				<h3>POPULAR FRANCHISE LINKS</h3>
-            	            				<ul class="popular-links">
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            					<li>
-            	            						<a href="#" title="">Gypsum Board Art Institute/The Drywall School</a>
-            	            					</li>
-            	            				</ul>
+                                            <ul class="popular-links">
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-angle-right"></i>
+                                                    <a href="#" title="Viện nghệ thuật thạch cao / Trường thạch cao">Viện nghệ thuật thạch cao / Trường thạch cao</a>
+                                                </li>
+                                            </ul>   
             	            			</div>
             	            		</div>
             	            	</div>
@@ -734,21 +757,38 @@
             					<h2 class="heading">Thành Viên</h2>
             					<div class="members-logo-wrp">
                                     <div class="members-logo-center">
-                                        <div class="members-logo">
-                                            <img src="images/members/14645783389850847197.gif" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/18324799379087080966.png" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/6103016155639028236.png" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/12574828808846206150.jpg" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/18349587315781827301.jpg" alt="">
-                                        </div>
+                                        <ul class="owl-carousel owl-theme owl-style2" data-nav="true" data-loop="true" data-autoplay="true" data-margin="30" data-responsive='{"0":{"items":2},"480":{"items":2},"600":{"items":2},"768":{"items":3},"800":{"items":3},"992":{"items":5}}'>
+                                            <li class="item">
+                                                <img src="images/members/14645783389850847197.gif" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18324799379087080966.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/6103016155639028236.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/12574828808846206150.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18349587315781827301.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/14645783389850847197.gif" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18324799379087080966.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/6103016155639028236.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/12574828808846206150.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18349587315781827301.jpg" alt="">
+                                            </li>   
+                                        </ul>
                                     </div>
                                 </div>
             				</div>
@@ -767,19 +807,58 @@
             		<section class="block-custom-footer-menu-items">
             			<div class="footer-base-link">
             				<ul>
-            				    <li><a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Sự Kiện</a></li>
-            				    <li><a href="#">Tài nguyên</a></li>
-            				    <li><a href="#">Giới Thiệu</a></li>
-            				    <li><a href="#">Tìm nhà cung cấp</a></li>
-            				    <li><a href="#">Quảng cáo</a></li>
-            				    <li><a href="#">Giới thiệu về nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Cam kết bảo mật</a></li>
-            				    <li><a href="#">Mạng lưới hành động nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Cơ hội nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Tìm hiểu về nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Tham gia</a></li>
-            				    <li><a href="#">Nghề nghiệp</a></li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Sự Kiện</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tài nguyên</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Giới Thiệu</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tìm nhà cung cấp</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Quảng cáo</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Giới thiệu về nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Cam kết bảo mật</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Mạng lưới hành động nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Cơ hội nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tìm hiểu về nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tham gia</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Nghề nghiệp</a>
+            				    </li>
             				</ul>
             			</div>
             		</section>
@@ -820,6 +899,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- JS Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- JS OwlCarousel -->
+    <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <!-- JS main -->
     <script src="js/main.js"></script>
 </body>

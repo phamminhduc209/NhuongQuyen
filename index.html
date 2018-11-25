@@ -9,8 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" >
-    <link href="css/style.css" rel="stylesheet" >
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- OwlCarousel -->
+    <link href="libs/OwlCarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- style -->
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -140,21 +144,6 @@
                                     <div class="carousel-inner">
                                         <div class="item active">
                                             <figure>
-                                                <img src="images/slide/conv19_garyv_slider-colored-normal.jpg" alt="banner" class="img-responsive" />
-                                            </figure>
-                                            <div class="head-banner-content-wrp">
-                                                <div class="head-banner-content">
-                                                    <h2>Tham Gia Cùng</h2>
-                                                    <p>Tham gia cùng hơn 4.000 chuyên gia nhượng quyền thương mại để tìm hiểu, kết nối và phát triển cùng nhau tại Hồ Chí Minh, ngày 24-27 tháng 2.</p>
-                                                    <a class="head-banner-btn" href="#">
-                                                        <span class="pull-left">ĐĂNG KÍ</span>
-                                                        <span class="arrow-icon"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <figure>
                                                 <img src="images/slide/joinifa_slider.jpg" alt="banner" class="img-responsive" />
                                             </figure>
                                             <div class="head-banner-content-wrp">
@@ -183,6 +172,21 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="item">
+                                            <figure>
+                                                <img src="images/slide/conv19_garyv_slider-colored-normal.jpg" alt="banner" class="img-responsive" />
+                                            </figure>
+                                            <div class="head-banner-content-wrp">
+                                                <div class="head-banner-content">
+                                                    <h2>Tham Gia Cùng</h2>
+                                                    <p>Tham gia cùng hơn 4.000 chuyên gia nhượng quyền thương mại để tìm hiểu, kết nối và phát triển cùng nhau tại Hồ Chí Minh, ngày 24-27 tháng 2.</p>
+                                                    <a class="head-banner-btn" href="#">
+                                                        <span class="pull-left">ĐĂNG KÍ</span>
+                                                        <span class="arrow-icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </figure>
@@ -196,7 +200,7 @@
                                             <section class="search-opportunities-well clearfix">
                                                 <div class="search-opportunities-in">
                                                     <div class="search-heading-section" id="search_franchisor">
-                                                        <h2><span>Tìm kiếm Nhượng Quyền Thương Mại</span></h2>
+                                                        <h2>Tìm kiếm Nhượng Quyền Thương Mại</h2>
                                                         <br>
                                                         <h3 class="sub-heading">Tìm kiếm, chọn, so sánh và liên hệ</h3>
                                                     </div>
@@ -300,6 +304,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!-- search-opportunites-left -->
                                                 </div>
                                             </section>
                                         </div>
@@ -413,7 +418,13 @@
 
         <!-- CONTENT : START -->
         <div id="content-bottom">
-            <!-- include "html-elements/block-advertise-banner.html" -->
+            <div class="block-advertise-banner hidden-xs">
+            	<a href="#" title="">
+            		<img src="images/random/8268559925275328095.jpg" alt="">
+            	</a>
+            </div>
+            <!-- advertise-banner -->
+
             <div class="block-pane-homepage-blog">
             	<div class="block-content">
             		<div class="blog-well">
@@ -692,16 +703,16 @@
             				    	<div class="col-sm-4 col-xs-12 newsletter-item">
             					    	<div class="newsletter-container-item">
             							    <a href="#">
-            							        <h3>Join IFA</h3>
+            							        <h3>Tham Gia Nhượng Quyền</h3>
             							        <p class="content">Tham gia tổ chức duy nhất cam kết bảo vệ ngành công nghiệp nhượng quyền thương mại ở Hoa Kỳ và trên toàn thế giới</p>
             							    </a>
             							    <nav>
             							        <ul>
-            							            <li><a href="#">Nhượng quyền thương mại</a></li>
+            							            <li><a href="#">Nhượng Quyền</a></li>
             							            <li class="brick">|</li>
-            							            <li><a href="#">Người nhượng quyền</a></li>
+            							            <li><a href="#">Người Nhượng Quyền</a></li>
             							            <li class="brick">|</li>
-            							            <li><a href="#">Các nhà cung cấp</a></li>
+            							            <li><a href="#">Các Nhà Cung Cấp</a></li>
             							        </ul>
             							    </nav>
             							</div>
@@ -709,7 +720,7 @@
             					    <div class="col-sm-4 col-xs-12 newsletter-item">
             					    	<div class="newsletter-container-item">
             							    <a href="#">
-            							        <h3>Education</h3>
+            							        <h3>Giáo Dục</h3>
             							        <p class="content">Việc kinh doanh theo định dạng kinh doanh đang biến đổi thị trường toàn cầu… tạo ra hàng nghìn cơ hội cho chủ doanh nghiệp và công việc… và…</p>
             							    </a>
             							    <nav>
@@ -724,21 +735,11 @@
             							</div>
             					    </div>
             					    <div class="col-sm-4 col-xs-12 newsletter-item">
-            					    	<div class="newsletter-container-item">
-            							    <a href="#">
-            							        <h3>Join IFA</h3>
-            							        <p class="content">Tham gia tổ chức duy nhất cam kết bảo vệ ngành công nghiệp nhượng quyền thương mại ở Hoa Kỳ và trên toàn thế giới</p>
-            							    </a>
-            							    <nav>
-            							        <ul>
-            							            <li><a href="#">Nhượng quyền thương mại</a></li>
-            							            <li class="brick">|</li>
-            							            <li><a href="#">Người nhượng quyền</a></li>
-            							            <li class="brick">|</li>
-            							            <li><a href="#">Các nhà cung cấp</a></li>
-            							        </ul>
-            							    </nav>
-            							</div>
+            					    	<div class="block-images--imageQC">
+            					    		<a href="#" title="">
+            						    		<img src="images/random/5740774625963992679.jpg" alt="">
+            						    	</a>
+            					    	</div>
             					    </div>
             				    </div>
             				    <form action="#" method="get" class="block-form">
@@ -909,21 +910,38 @@
             					<h2 class="heading">Thành Viên</h2>
             					<div class="members-logo-wrp">
                                     <div class="members-logo-center">
-                                        <div class="members-logo">
-                                            <img src="images/members/14645783389850847197.gif" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/18324799379087080966.png" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/6103016155639028236.png" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/12574828808846206150.jpg" alt="">
-                                        </div>
-                                        <div class="members-logo">
-                                            <img src="images/members/18349587315781827301.jpg" alt="">
-                                        </div>
+                                        <ul class="owl-carousel owl-theme owl-style2" data-nav="true" data-loop="true" data-autoplay="true" data-margin="30" data-responsive='{"0":{"items":2},"480":{"items":2},"600":{"items":2},"768":{"items":3},"800":{"items":3},"992":{"items":5}}'>
+                                            <li class="item">
+                                                <img src="images/members/14645783389850847197.gif" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18324799379087080966.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/6103016155639028236.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/12574828808846206150.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18349587315781827301.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/14645783389850847197.gif" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18324799379087080966.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/6103016155639028236.png" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/12574828808846206150.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="images/members/18349587315781827301.jpg" alt="">
+                                            </li>   
+                                        </ul>
                                     </div>
                                 </div>
             				</div>
@@ -942,19 +960,58 @@
             		<section class="block-custom-footer-menu-items">
             			<div class="footer-base-link">
             				<ul>
-            				    <li><a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Sự Kiện</a></li>
-            				    <li><a href="#">Tài nguyên</a></li>
-            				    <li><a href="#">Giới Thiệu</a></li>
-            				    <li><a href="#">Tìm nhà cung cấp</a></li>
-            				    <li><a href="#">Quảng cáo</a></li>
-            				    <li><a href="#">Giới thiệu về nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Cam kết bảo mật</a></li>
-            				    <li><a href="#">Mạng lưới hành động nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Cơ hội nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Tìm hiểu về nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Tham gia</a></li>
-            				    <li><a href="#">Nghề nghiệp</a></li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Sự Kiện</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tài nguyên</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Giới Thiệu</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tìm nhà cung cấp</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Quảng cáo</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Giới thiệu về nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Cam kết bảo mật</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Mạng lưới hành động nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Cơ hội nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tìm hiểu về nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tham gia</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Nghề nghiệp</a>
+            				    </li>
             				</ul>
             			</div>
             		</section>
@@ -995,6 +1052,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- JS Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- JS OwlCarousel -->
+    <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <!-- JS main -->
     <script src="js/main.js"></script>
 </body>

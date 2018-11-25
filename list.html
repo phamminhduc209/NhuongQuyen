@@ -9,8 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" >
-    <link href="css/style.css" rel="stylesheet" >
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- OwlCarousel -->
+    <link href="libs/OwlCarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- style -->
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -128,12 +132,11 @@
             </header>
             <section class="header-aside">
                 <div id="main-content">
-                    <div id="breadcrumbs" class="clearfix">
-                        <a href="/">Home</a>
-                        <span class="arrow"> &gt; </span>
-                        <a href="#" class="active">Franchise Opportunities</a>
-                        <span class="arrow"> &gt; </span>
-                        <a href="#" title="" class="active">Find a Franchise</a>
+                    <div class="block-breadcrumbs">
+                        <ol class="breadcrumb">
+                            <li><a href="#">Home</a></li>
+                            <li class="active">List</li>
+                        </ol>
                     </div>
                     <div class="view-content">
                         <div class="list-content">
@@ -147,86 +150,19 @@
                                         <div class="list-supplier-search clearfix">
                                             <div class="col-sm-6 list-supplier-search-first">
                                                 <div class="form-item form-group">
-                                                    <select class="form-control form-select" id="edit-field-franchisor-category-tid" name="field_franchisor_category_tid">
+                                                    <select class="form-control form-select" name="">
                                                         <option value="All" selected="selected">Tất cả các ngành</option>
                                                         <option value="">Automotive</option>
                                                         <option value="">Beverages</option>
-                                                        <option value="">Business Services</option>
-                                                        <option value="">Children's Services</option>
-                                                        <option value="">Cleaning Franchises</option>
-                                                        <option value="">Computer/Electronics/Internet Services</option>
-                                                        <option value="">Diversity</option>
-                                                        <option value="">Education</option>
-                                                        <option value="">Financial Services</option>
-                                                        <option value="">Food</option>
-                                                        <option value="">Franchise Resale</option>
-                                                        <option value="">Health Aids &amp; Services</option>
-                                                        <option value="">Home Services</option>
-                                                        <option value="">Home-based</option>
-                                                        <option value="">Retail</option>
-                                                        <option value="">Senior Care</option>
-                                                        <option value="">Travel and Tourism</option>
-                                                        <option value="">Under 50k</option>
-                                                        <option value="">Women's</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 list-supplier-search-last">
-                                                <div class="form-item form-item-field-fs-domestic-tid form-type-select form-group">
-                                                    <select class="form-control form-select" id="edit-field-fs-domestic-tid" name="field_fs_domestic_tid">
+                                                 <div class="form-item form-group">
+                                                    <select class="form-control form-select" name="">
                                                         <option value="All" selected="selected">Tất cả các tỉnh thành</option>
                                                         <option value="">Alabama</option>
                                                         <option value="">Alaska</option>
-                                                        <option value="">Arizona</option>
-                                                        <option value="">Arkansas</option>
-                                                        <option value="">California</option>
-                                                        <option value="">Colorado</option>
-                                                        <option value="">Connecticut</option>
-                                                        <option value="">Deleware</option>
-                                                        <option value="">DistrcitofColumbia</option>
-                                                        <option value="">Florida</option>
-                                                        <option value="">Georgia</option>
-                                                        <option value="">Hawaii</option>
-                                                        <option value="">Idaho</option>
-                                                        <option value="">Illinois</option>
-                                                        <option value="">Indiana</option>
-                                                        <option value="">Iowa</option>
-                                                        <option value="">Kanas</option>
-                                                        <option value="">Kentucky</option>
-                                                        <option value="">Louisiana</option>
-                                                        <option value="">Maine</option>
-                                                        <option value="">Maryland</option>
-                                                        <option value="">Massachusetts</option>
-                                                        <option value="">Michigan</option>
-                                                        <option value="">Minnesota</option>
-                                                        <option value="">Mississippi</option>
-                                                        <option value="">Missouri</option>
-                                                        <option value="">Montana</option>
-                                                        <option value="">Nebraska</option>
-                                                        <option value="">Nevada</option>
-                                                        <option value="">NewHampshire</option>
-                                                        <option value="">NewJersey</option>
-                                                        <option value="">NewMexico</option>
-                                                        <option value="">NewYork</option>
-                                                        <option value="">NorthCarolina</option>
-                                                        <option value="">NorthDakota</option>
-                                                        <option value="">Ohio</option>
-                                                        <option value="">Oklahoma</option>
-                                                        <option value="">Oregon</option>
-                                                        <option value="">Pennsylvania</option>
-                                                        <option value="">PuertoRico</option>
-                                                        <option value="">RhodeIsland</option>
-                                                        <option value="">SouthCarolina</option>
-                                                        <option value="">SouthDakota</option>
-                                                        <option value="">Tennesse</option>
-                                                        <option value="">Texas</option>
-                                                        <option value="">Utah</option>
-                                                        <option value="">Vermont</option>
-                                                        <option value="">Virginia</option>
-                                                        <option value="">Washington</option>
-                                                        <option value="">WestVirginia</option>
-                                                        <option value="">Wisconsin</option>
-                                                        <option value="">Wyoming</option>
                                                     </select>
                                                 </div>
                                                 <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -443,24 +379,41 @@
                                     <div class="members-well">
                                         <div class="members-container clearfix">
                                             <div class="members-container-in clearfix">
-                                                <h2 class="heading">Members</h2>
+                                                <h2 class="heading">Thành Viên</h2>
                                                 <div class="members-logo-wrp">
                                                     <div class="members-logo-center">
-                                                        <div class="members-logo">
-                                                            <img src="images/members/14645783389850847197.gif" alt="">
-                                                        </div>
-                                                        <div class="members-logo">
-                                                            <img src="images/members/18324799379087080966.png" alt="">
-                                                        </div>
-                                                        <div class="members-logo">
-                                                            <img src="images/members/6103016155639028236.png" alt="">
-                                                        </div>
-                                                        <div class="members-logo">
-                                                            <img src="images/members/12574828808846206150.jpg" alt="">
-                                                        </div>
-                                                        <div class="members-logo">
-                                                            <img src="images/members/18349587315781827301.jpg" alt="">
-                                                        </div>
+                                                        <ul class="owl-carousel owl-theme owl-style2" data-nav="true" data-loop="true" data-autoplay="true" data-margin="30" data-responsive='{"0":{"items":2},"480":{"items":2},"600":{"items":2},"768":{"items":3},"800":{"items":3},"992":{"items":5}}'>
+                                                            <li class="item">
+                                                                <img src="images/members/14645783389850847197.gif" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/18324799379087080966.png" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/6103016155639028236.png" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/12574828808846206150.jpg" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/18349587315781827301.jpg" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/14645783389850847197.gif" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/18324799379087080966.png" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/6103016155639028236.png" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/12574828808846206150.jpg" alt="">
+                                                            </li>
+                                                            <li class="item">
+                                                                <img src="images/members/18349587315781827301.jpg" alt="">
+                                                            </li>   
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
@@ -489,19 +442,58 @@
             		<section class="block-custom-footer-menu-items">
             			<div class="footer-base-link">
             				<ul>
-            				    <li><a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Sự Kiện</a></li>
-            				    <li><a href="#">Tài nguyên</a></li>
-            				    <li><a href="#">Giới Thiệu</a></li>
-            				    <li><a href="#">Tìm nhà cung cấp</a></li>
-            				    <li><a href="#">Quảng cáo</a></li>
-            				    <li><a href="#">Giới thiệu về nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Cam kết bảo mật</a></li>
-            				    <li><a href="#">Mạng lưới hành động nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Cơ hội nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Tìm hiểu về nhượng quyền thương mại</a></li>
-            				    <li><a href="#">Tham gia</a></li>
-            				    <li><a href="#">Nghề nghiệp</a></li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Sự Kiện</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tài nguyên</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Giới Thiệu</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tìm nhà cung cấp</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Quảng cáo</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Giới thiệu về nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Cam kết bảo mật</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Mạng lưới hành động nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Cơ hội nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tìm hiểu về nhượng quyền thương mại</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Tham gia</a>
+            				    </li>
+            				    <li>
+            				    	<i class="fa fa-angle-right fa-6"></i>
+            				    	<a href="#">Nghề nghiệp</a>
+            				    </li>
             				</ul>
             			</div>
             		</section>
@@ -542,6 +534,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- JS Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- JS OwlCarousel -->
+    <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <!-- JS main -->
     <script src="js/main.js"></script>
 </body>
