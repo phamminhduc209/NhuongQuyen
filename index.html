@@ -418,10 +418,23 @@
 
         <!-- CONTENT : START -->
         <div id="content-bottom">
-            <div class="block-advertise-banner hidden-xs">
+            <div class="block-advertise-banner hidden-xs block-change-image">
             	<a href="#" title="">
             		<img src="images/random/8268559925275328095.jpg" alt="">
             	</a>
+                <div class="block-btn-change">
+                    <form action="" method="">
+                        <div class="input-file-container">  
+                            <input class="input-file" id="my-file" type="file">
+                            <label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+                        </div>
+                        <p class="file-return"></p>
+                        <div class="block-btn-change-gr">
+                            <button type="button" class="btn btn-info">Save</button>
+                            <button type="reset" class="btn btn-danger">Cancel</button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!-- advertise-banner -->
 
@@ -1056,5 +1069,23 @@
     <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <!-- JS main -->
     <script src="js/main.js"></script>
+    <script>
+        var fileInput  = document.querySelector( ".input-file" ),  
+            button     = document.querySelector( ".input-file-trigger" ),
+            the_return = document.querySelector(".file-return");
+              
+        button.addEventListener( "keydown", function( event ) {  
+            if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+                fileInput.focus();  
+            }  
+        });
+        button.addEventListener( "click", function( event ) {
+           fileInput.focus();
+           return false;
+        });  
+        fileInput.addEventListener( "change", function( event ) {  
+            the_return.innerHTML = this.value;  
+        });  
+    </script>
 </body>
 </html>
