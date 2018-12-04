@@ -30,7 +30,7 @@
             <header class="header" id="header">
                 <figure class="header-logo-wrp">
                     <a href="/" title="Home">
-                        <img src="images/logo.jpg" alt="Home" class="logo">
+                        <img src="images/logo_new.png" alt="Home" class="logo">
                     </a>
                     <!-- <a href="/" title="Home" style="display: block; color: #fff; font-size: 25px; margin: 0 auto;">Nhuong<br>Quyen<small>.NET</small></a> -->
                 </figure>
@@ -418,10 +418,23 @@
 
         <!-- CONTENT : START -->
         <div id="content-bottom">
-            <div class="block-advertise-banner hidden-xs">
+            <div class="block-advertise-banner hidden-xs block-change-image">
             	<a href="#" title="">
             		<img src="images/random/8268559925275328095.jpg" alt="">
             	</a>
+                <div class="block-btn-change">
+                    <form action="" method="">
+                        <div class="input-file-container">  
+                            <input class="input-file" id="my-file" type="file">
+                            <label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+                        </div>
+                        <p class="file-return"></p>
+                        <div class="block-btn-change-gr">
+                            <button type="button" class="btn btn-info">Save</button>
+                            <button type="reset" class="btn btn-danger">Cancel</button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!-- advertise-banner -->
 
@@ -956,93 +969,76 @@
         <!-- FOOTER : START -->
         <footer id="footer">
             <div class="footer-container">
-            	<div class="clearfix">
-            		<section class="block-custom-footer-menu-items">
-            			<div class="footer-base-link">
-            				<ul>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#" title="Cơ hội nhượng quyền thương mại">Cơ hội nhượng quyền thương mại</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Sự Kiện</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Tài nguyên</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Giới Thiệu</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Tìm nhà cung cấp</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Quảng cáo</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Giới thiệu về nhượng quyền thương mại</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Cam kết bảo mật</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Mạng lưới hành động nhượng quyền thương mại</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Cơ hội nhượng quyền thương mại</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Tìm hiểu về nhượng quyền thương mại</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Tham gia</a>
-            				    </li>
-            				    <li>
-            				    	<i class="fa fa-angle-right fa-6"></i>
-            				    	<a href="#">Nghề nghiệp</a>
-            				    </li>
-            				</ul>
-            			</div>
-            		</section>
-            		<!-- -->
-            		<section class="block-custom-social-icons-block">
-            			<div class="social-link-copyright">
-            			    <div class="social-link">
-            			    	<a href="#" class="fa fa-envelope-o" target="_blank"></a>
-            			    	<a href="#" class="fa fa-facebook" target="_blank"></a>
-            			    	<a href="#" class="fa fa-twitter" target="_blank"></a>
-            			    	<a href="#" class="fa fa-linkedin" target="_blank"></a>
-            			    	<a href="#" class="fa fa-instagram" target="_blank"></a>
-            			    	<a href="#" class="fa fa-youtube" target="_blank"></a>
-            			    </div>
-            			</div>
-            		</section>
-            		<!-- -->
-            		<section class="block-info-company">
-            		    <div class="social-link-copyright">
-            		        <nav class="copyright-link">
-            		            <ul>
-            		                <li><a href="/node/76796">Privacy Policy</a>|</li>
-            		                <li><a href="/node/76796">Terms of Use</a></li>
-            		            </ul>
-            		            <p></p>
-            		        </nav>
-            		        <div class="copyright">© Copyright. All rights reserved</div>
-            		    </div>
-            		</section>
-            		<!-- -->
-            	</div>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <h2 class="footer-title">Công Ty Chủ Quản</h2>
+                        <p class="footer-logo">
+                            <a href="http://www.vietnamproject.com/" title="">
+                                <img src="images/unnamed.jpg" alt="VietNam Project">
+                            </a>
+                        </p>
+                        <address>
+                            <strong>NhuongQuyen.Net</strong><br>
+                            1355 Market Street, Suite 900<br>
+                            San Francisco, CA 94103<br>
+                            Hotline: <a href="tel:0907899988" title="">(+84) 0907.899988</a><br>
+                            Viber: <a href="tel:" title=""></a><br>
+                            Zalo: <a href="tel:" title=""></a>
+                        </address>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <h2 class="footer-title">Dịch Vụ</h2>
+                        <section class="block-custom-footer-menu-items">                        
+                            <div class="footer-base-link">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-angle-right fa-6"></i>
+                                        <a href="#">Cơ hội nhượng quyền thương mại</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right fa-6"></i>
+                                        <a href="#">Tìm hiểu về nhượng quyền thương mại</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right fa-6"></i>
+                                        <a href="#">Tham gia</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-angle-right fa-6"></i>
+                                        <a href="#">Nghề nghiệp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <h2 class="footer-title">Follow Us</h2>
+                        <section class="block-custom-social-icons-block">
+                            <div class="social-link-copyright">
+                                <div class="social-link">
+                                    <a href="#" class="fa fa-envelope-o" target="_blank"></a>
+                                    <a href="#" class="fa fa-facebook" target="_blank"></a>
+                                    <a href="#" class="fa fa-twitter" target="_blank"></a>
+                                    <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                                    <a href="#" class="fa fa-instagram" target="_blank"></a>
+                                    <a href="#" class="fa fa-youtube" target="_blank"></a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="block-info-company">
+                            <div class="social-link-copyright">
+                                <div class="block-certify">
+                                    <a href="#" title="">
+                                        <img src="images/certify.png" alt="Đã Đăng Kí Bộ Công Thương">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="copyright text-center">© Copyright. All rights reserved</div>
             </div>
         </footer>
         <!-- FOOTER : END -->
@@ -1056,5 +1052,23 @@
     <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
     <!-- JS main -->
     <script src="js/main.js"></script>
+    <script>
+        var fileInput  = document.querySelector( ".input-file" ),  
+            button     = document.querySelector( ".input-file-trigger" ),
+            the_return = document.querySelector(".file-return");
+              
+        button.addEventListener( "keydown", function( event ) {  
+            if ( event.keyCode == 13 || event.keyCode == 32 ) {  
+                fileInput.focus();  
+            }  
+        });
+        button.addEventListener( "click", function( event ) {
+           fileInput.focus();
+           return false;
+        });  
+        fileInput.addEventListener( "change", function( event ) {  
+            the_return.innerHTML = this.value;  
+        });  
+    </script>
 </body>
 </html>
