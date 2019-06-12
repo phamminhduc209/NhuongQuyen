@@ -1445,7 +1445,7 @@
 	    }
 	    #header .header-logo-wrp{
 				text-align: center;
-				padding: 10px 5px;
+				padding: 10px;
 			}
 	}
 
@@ -1554,6 +1554,9 @@
 	        -webkit-transform: translate(0, -50%);
 	        -ms-transform: translate(0, -50%);
 	        transform: translate(0, -50%)
+	    }
+	    #header .header-logo-wrp img {
+	    		margin: 0 auto;
 	    }
 	}
 
@@ -4702,5 +4705,5 @@ a.tlq{
 	}
 	.sp {
 		display: block;
-	}	
+	}
 }
