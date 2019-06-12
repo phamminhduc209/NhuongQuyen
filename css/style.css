@@ -2565,7 +2565,7 @@
 	        margin: 0 0 2px 0
 	    }
 	    #header #block-ifa-custom-social-icons-block-top .social_icon a {
-	        font-size: 29px;
+	        font-size: 27px;
 	        margin: 0 8px
 	    }
 	    .header-nav {
@@ -4695,6 +4695,15 @@ a.tlq{
 .view-content .views-row:nth-child(2n+1) {
     clear: both;
 }
+.block-details-full-editor table{
+	margin: 0 auto;
+}
+.block-details-full-editor table td{
+	padding:5px;
+}
+.view-content .views-row:nth-child(2n+1) {
+    clear: both;
+}
 
 .pc {
 	display: block;
@@ -4709,5 +4718,8 @@ a.tlq{
 	}
 	.sp {
 		display: block;
+	}
+	#header .header-logo-wrp{
+		padding: 15px;
 	}
 }
